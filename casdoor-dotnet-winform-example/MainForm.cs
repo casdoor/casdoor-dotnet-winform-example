@@ -1,3 +1,6 @@
+using System;
+using System.Windows.Forms;
+
 namespace casdoor_dotnet_winform_example
 {
     public partial class MainForm : Form

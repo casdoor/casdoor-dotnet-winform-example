@@ -1,4 +1,6 @@
-﻿namespace casdoor_dotnet_winform_example
+﻿using System.Windows.Forms;
+
+namespace casdoor_dotnet_winform_example
 {
     partial class MainForm
     {
