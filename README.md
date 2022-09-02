@@ -4,7 +4,7 @@ This project was bootstrapped with [Windows Forms](https://github.com/dotnet/win
 
 ## Prerequisites
 
-[dotnet6 sdk](https://dotnet.microsoft.com/en-us/download)
+[dotnet6 sdk](https://dotnet.microsoft.com/en-us/download) or [dotnet5 sdk](https://dotnet.microsoft.com/en-us/download/dotnet/5.0)
 
 [webview2 runtime](https://developer.microsoft.com/zh-cn/microsoft-edge/webview2/#download-section) (It's already preinstalled in your windows generally)
 
@@ -18,7 +18,7 @@ You need to init requires 5 parameters, which are all string type:
 | ClientId     | The Client ID of your Casdoor application                                                               | `CasdoorVariables.cs` |
 | AppName      | The name of your Casdoor application                                                                    | `CasdoorVariables.cs` |
 | CallbackUrl  | The path of the callback URL for your Casdoor application, will be `casdoor://callback` if not provided | `CasdoorVariables.cs` |
-| ClientSecret | The Client Secret of your Casdoor application                                                           | `CasdoorVariables.cs` |
+| ClientSecret | The Client Secret of your Casdoor application                                                           | `CasdoorVariables.cs` |
 
 If you don't set these parameters, this project will use the [Casdoor online demo](https://door.casdoor.com) as the defult Casdoor server and use the [Casnode](https://door.casdoor.com/applications/app-casnode) as the default Casdoor application.
 
@@ -32,4 +32,4 @@ If you don't set these parameters, this project will use the [Casdoor online dem
 ### Command line
 
 1. `cd casdoor-dotnet-winform-example`
-2. `dotnet run`
+2. `dotnet run --framework net6.0-windows` or `dotnet run --framework net5.0-windows`

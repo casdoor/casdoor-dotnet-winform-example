@@ -1,4 +1,5 @@
-﻿using Microsoft.Web.WebView2.Core;
+﻿using System.Windows.Forms;
+using Microsoft.Web.WebView2.Core;
 
 namespace casdoor_dotnet_winform_example
 {

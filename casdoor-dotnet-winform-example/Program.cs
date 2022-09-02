@@ -1,3 +1,6 @@
+using System;
+using System.Windows.Forms;
+
 namespace casdoor_dotnet_winform_example
 {
     internal static class Program
@@ -10,7 +13,8 @@ namespace casdoor_dotnet_winform_example
         {
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
-            ApplicationConfiguration.Initialize();
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainForm());
         }
     }

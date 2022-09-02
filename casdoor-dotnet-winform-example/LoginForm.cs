@@ -1,4 +1,6 @@
-﻿using System.Web;
+﻿using System;
+using System.Web;
+using System.Windows.Forms;
 using Microsoft.Web.WebView2.Core;
 
 namespace casdoor_dotnet_winform_example
@@ -9,8 +11,6 @@ namespace casdoor_dotnet_winform_example
         public LoginForm()
         {
             InitializeComponent();
-
-            //Loaded += Login_Loaded;
         }
 
         public event EventHandler<CodeReceivedEventArgs>? CodeReceived;
