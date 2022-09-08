@@ -1,5 +1,8 @@
 # casdoor-dotnet-winform-example
 
+README: English | [中文](https://github.com/casdoor/casdoor-dotnet-winform-example/blob/master/README-zh-cn.md)
+
+
 This project was bootstrapped with [Windows Forms](https://github.com/dotnet/winforms) and [dotnet](https://www.dot.net/).
 
 ## Prerequisites
